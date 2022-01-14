@@ -1,0 +1,41 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog {
+    max-width: 30%;
+}
+
+.show-photo {
+    max-width: 70%;
+}
+
+ol {
+    width: 300px;
+    margin: 20px auto;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid grey;
+    margin: 10px;
+    background-color: yellow;
+}
+
+.item-picture {
+    max-width: 600px;
+    max-height: 600px;
+    margin: 20px;
+}
+
+p {
+    width: 580px;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    padding-left: 20px;
+}

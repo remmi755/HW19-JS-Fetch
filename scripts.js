@@ -18,7 +18,7 @@ function renderCatalog(arr) {
 
 function renderPhoto(el) {
     el = `<p>Title: ${el.title}</p>
-                <img  src="${el.url}" alt="${el.title}"  class="item-picture"  data-id="${el.id}">`;
+          <img  src="${el.url}" alt="${el.title}"  class="item-picture"  data-id="${el.id}">`;
     photo.innerHTML = el;
 }
 
